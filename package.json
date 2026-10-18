@@ -1,0 +1,14 @@
+{
+  "name": "app-monetization-kit",
+  "version": "0.1.0",
+  "description": "App 变现骨架：会员/内购权益服务 + 付费去广告模式 + 授权防篡改要点（零依赖 Node）",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["iap", "subscription", "entitlement", "storekit", "ad-free", "license"],
+  "license": "MIT"
+}
